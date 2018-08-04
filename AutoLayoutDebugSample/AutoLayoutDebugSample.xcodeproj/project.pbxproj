@@ -12,6 +12,7 @@
 		E31ED6972110932500DC3E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31ED6952110932500DC3E7D /* Main.storyboard */; };
 		E31ED6992110932600DC3E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31ED6982110932600DC3E7D /* Assets.xcassets */; };
 		E31ED69C2110932600DC3E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31ED69A2110932600DC3E7D /* LaunchScreen.storyboard */; };
+		E31ED6A42115573B00DC3E7D /* StackViewLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31ED6A32115573B00DC3E7D /* StackViewLayoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E31ED6982110932600DC3E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E31ED69B2110932600DC3E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E31ED69D2110932600DC3E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E31ED6A32115573B00DC3E7D /* StackViewLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewLayoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				E31ED6912110932500DC3E7D /* AppDelegate.swift */,
 				E31ED6932110932500DC3E7D /* ViewController.swift */,
+				E31ED6A32115573B00DC3E7D /* StackViewLayoutViewController.swift */,
 				E31ED6952110932500DC3E7D /* Main.storyboard */,
 				E31ED6982110932600DC3E7D /* Assets.xcassets */,
 				E31ED69A2110932600DC3E7D /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E31ED6942110932500DC3E7D /* ViewController.swift in Sources */,
+				E31ED6A42115573B00DC3E7D /* StackViewLayoutViewController.swift in Sources */,
 				E31ED6922110932500DC3E7D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
