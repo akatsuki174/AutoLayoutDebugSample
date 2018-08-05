@@ -51,8 +51,11 @@
                                         <constraint firstItem="w6a-tb-Q9y" firstAttribute="leading" secondItem="04y-1d-8LS" secondAttribute="leading" constant="50" id="A35-Jf-Owm"/>
                                         <constraint firstItem="dzF-fo-U3n" firstAttribute="leading" secondItem="w6a-tb-Q9y" secondAttribute="leading" id="ImX-dz-1FA"/>
                                         <constraint firstItem="dzF-fo-U3n" firstAttribute="top" secondItem="vAo-VO-vHR" secondAttribute="bottom" constant="10" id="Nwp-zi-YN2"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="w6a-tb-Q9y" secondAttribute="trailing" constant="10" id="OZ0-uw-G3t"/>
                                         <constraint firstItem="w6a-tb-Q9y" firstAttribute="top" secondItem="04y-1d-8LS" secondAttribute="top" constant="10" id="PIY-oV-jjF"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="vAo-VO-vHR" secondAttribute="trailing" constant="10" id="ZEw-bE-KTK"/>
                                         <constraint firstAttribute="bottom" secondItem="dzF-fo-U3n" secondAttribute="bottom" constant="10" id="g8d-Y0-XXV"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dzF-fo-U3n" secondAttribute="trailing" constant="10" id="txg-AI-iEN"/>
                                         <constraint firstItem="vAo-VO-vHR" firstAttribute="top" secondItem="w6a-tb-Q9y" secondAttribute="bottom" constant="10" id="vMc-V0-hqa"/>
                                     </constraints>
                                 </tableViewCellContentView>
