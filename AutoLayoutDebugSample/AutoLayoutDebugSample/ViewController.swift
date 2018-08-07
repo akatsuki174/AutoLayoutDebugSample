@@ -20,7 +20,8 @@ extension ViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? LabelsCell else { fatalError() }
+        print(cell.label1.hasAmbiguousLayout)
         return cell
     }
 }
