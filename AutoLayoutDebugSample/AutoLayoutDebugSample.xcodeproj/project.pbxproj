@@ -14,6 +14,7 @@
 		E31ED69C2110932600DC3E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31ED69A2110932600DC3E7D /* LaunchScreen.storyboard */; };
 		E31ED6A42115573B00DC3E7D /* StackViewLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31ED6A32115573B00DC3E7D /* StackViewLayoutViewController.swift */; };
 		E31ED6A62119DD9500DC3E7D /* LabelsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31ED6A52119DD9500DC3E7D /* LabelsCell.swift */; };
+		E3AD6B93211B34F000E36332 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD6B92211B34F000E36332 /* UIViewExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E31ED69D2110932600DC3E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E31ED6A32115573B00DC3E7D /* StackViewLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewLayoutViewController.swift; sourceTree = "<group>"; };
 		E31ED6A52119DD9500DC3E7D /* LabelsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsCell.swift; sourceTree = "<group>"; };
+		E3AD6B92211B34F000E36332 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				E31ED6932110932500DC3E7D /* ViewController.swift */,
 				E31ED6A32115573B00DC3E7D /* StackViewLayoutViewController.swift */,
 				E31ED6A52119DD9500DC3E7D /* LabelsCell.swift */,
+				E3AD6B92211B34F000E36332 /* UIViewExtensions.swift */,
 				E31ED6952110932500DC3E7D /* Main.storyboard */,
 				E31ED6982110932600DC3E7D /* Assets.xcassets */,
 				E31ED69A2110932600DC3E7D /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E31ED6942110932500DC3E7D /* ViewController.swift in Sources */,
+				E3AD6B93211B34F000E36332 /* UIViewExtensions.swift in Sources */,
 				E31ED6A42115573B00DC3E7D /* StackViewLayoutViewController.swift in Sources */,
 				E31ED6A62119DD9500DC3E7D /* LabelsCell.swift in Sources */,
 				E31ED6922110932500DC3E7D /* AppDelegate.swift in Sources */,
