@@ -25,14 +25,15 @@ final class CoverView: UIView {
         // messageLabel layout
         addSubview(messageLabel)
         messageLabel.translatesAutoresizingMaskIntoConstraints = false
+        messageLabel.font = UIFont.systemFont(ofSize: 36)
         messageLabel.textColor = UIColor.white
         messageLabel.textAlignment = .center
         messageLabel.numberOfLines = 0
         messageLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         messageLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 150).isActive = true
-        messageLabel.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.75).isActive = true
-        messageLabel.heightAnchor.constraint(equalToConstant: 20).isActive = true
-        messageLabel.text = "シャイニングマンデぇぇぇぇ"
+        messageLabel.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.85).isActive = true
+        messageLabel.heightAnchor.constraint(equalToConstant: 120).isActive = true
+        messageLabel.text = "シャイニング\nマンデぇぇぇぇ"
 
         UIView.animate(withDuration: 0.8, animations: { [weak self] in
             self?.alpha = 1.0
