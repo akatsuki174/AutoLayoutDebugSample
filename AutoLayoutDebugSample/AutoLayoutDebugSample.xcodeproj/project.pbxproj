@@ -15,6 +15,8 @@
 		E31ED6A42115573B00DC3E7D /* StackViewLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31ED6A32115573B00DC3E7D /* StackViewLayoutViewController.swift */; };
 		E31ED6A62119DD9500DC3E7D /* LabelsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31ED6A52119DD9500DC3E7D /* LabelsCell.swift */; };
 		E3AD6B93211B34F000E36332 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD6B92211B34F000E36332 /* UIViewExtensions.swift */; };
+		E3DB11EC211C22DD00B3F45B /* CoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DB11EB211C22DD00B3F45B /* CoverViewController.swift */; };
+		E3DB11EE211C236800B3F45B /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DB11ED211C236800B3F45B /* CoverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		E31ED6A32115573B00DC3E7D /* StackViewLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewLayoutViewController.swift; sourceTree = "<group>"; };
 		E31ED6A52119DD9500DC3E7D /* LabelsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsCell.swift; sourceTree = "<group>"; };
 		E3AD6B92211B34F000E36332 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		E3DB11EB211C22DD00B3F45B /* CoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverViewController.swift; sourceTree = "<group>"; };
+		E3DB11ED211C236800B3F45B /* CoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 				E31ED6A32115573B00DC3E7D /* StackViewLayoutViewController.swift */,
 				E31ED6A52119DD9500DC3E7D /* LabelsCell.swift */,
 				E3AD6B92211B34F000E36332 /* UIViewExtensions.swift */,
+				E3DB11EB211C22DD00B3F45B /* CoverViewController.swift */,
+				E3DB11ED211C236800B3F45B /* CoverView.swift */,
 				E31ED6952110932500DC3E7D /* Main.storyboard */,
 				E31ED6982110932600DC3E7D /* Assets.xcassets */,
 				E31ED69A2110932600DC3E7D /* LaunchScreen.storyboard */,
@@ -144,6 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3DB11EC211C22DD00B3F45B /* CoverViewController.swift in Sources */,
+				E3DB11EE211C236800B3F45B /* CoverView.swift in Sources */,
 				E31ED6942110932500DC3E7D /* ViewController.swift in Sources */,
 				E3AD6B93211B34F000E36332 /* UIViewExtensions.swift in Sources */,
 				E31ED6A42115573B00DC3E7D /* StackViewLayoutViewController.swift in Sources */,
@@ -293,7 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5K55PQ8BSJ;
+				DEVELOPMENT_TEAM = MQRQQ47EX5;
 				INFOPLIST_FILE = AutoLayoutDebugSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,7 +320,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5K55PQ8BSJ;
+				DEVELOPMENT_TEAM = MQRQQ47EX5;
 				INFOPLIST_FILE = AutoLayoutDebugSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
