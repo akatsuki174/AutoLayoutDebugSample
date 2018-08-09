@@ -14,6 +14,7 @@ final class CoverView: UIView {
     func show(in view: UIView) {
         // Cover view layout
         view.addSubview(self)
+        self.translatesAutoresizingMaskIntoConstraints = false
         self.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         self.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         self.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
@@ -23,6 +24,7 @@ final class CoverView: UIView {
 
         // messageLabel layout
         addSubview(messageLabel)
+        messageLabel.translatesAutoresizingMaskIntoConstraints = false
         messageLabel.textColor = UIColor.white
         messageLabel.textAlignment = .center
         messageLabel.numberOfLines = 0
