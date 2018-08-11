@@ -6,6 +6,7 @@ final class CoverViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         coverView.show(in: self.view)
+        print(self.view.hasAmbiguity())
     }
 
     override func didReceiveMemoryWarning() {
