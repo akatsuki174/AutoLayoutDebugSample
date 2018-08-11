@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oot-55-GfF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LB9-0P-sqQ">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -47,7 +47,6 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="vAo-VO-vHR" firstAttribute="leading" secondItem="w6a-tb-Q9y" secondAttribute="leading" id="6SC-RX-c57"/>
-                                        <constraint firstItem="w6a-tb-Q9y" firstAttribute="leading" secondItem="04y-1d-8LS" secondAttribute="leading" constant="50" id="A35-Jf-Owm"/>
                                         <constraint firstItem="dzF-fo-U3n" firstAttribute="leading" secondItem="w6a-tb-Q9y" secondAttribute="leading" id="ImX-dz-1FA"/>
                                         <constraint firstItem="dzF-fo-U3n" firstAttribute="top" secondItem="vAo-VO-vHR" secondAttribute="bottom" constant="10" id="Nwp-zi-YN2"/>
                                         <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="w6a-tb-Q9y" secondAttribute="trailing" constant="10" id="OZ0-uw-G3t"/>
