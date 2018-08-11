@@ -22,7 +22,7 @@ final class MultiHierarchyViewController: UIViewController {
         button.setTitle("remove gray view", for: .normal)
         button.setTitleColor(UIColor.white, for: .normal)
         button.backgroundColor = UIColor.blue
-        button.addTarget(self, action: #selector(MultiHierarchyViewController.tappedButton(sender:)), for: .touchUpInside)
+        button.addTarget(self, action: #selector(MultiHierarchyViewController.tappedButton), for: .touchUpInside)
         self.view.addSubview(button)
     }
 
@@ -30,7 +30,7 @@ final class MultiHierarchyViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
 
-    @objc private func tappedButton(sender: UIButton) {
+    @objc private func tappedButton() {
         grayView.removeFromSuperview()
     }
 
