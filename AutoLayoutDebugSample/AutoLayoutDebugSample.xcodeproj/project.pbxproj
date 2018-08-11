@@ -66,20 +66,28 @@
 		E31ED6902110932500DC3E7D /* AutoLayoutDebugSample */ = {
 			isa = PBXGroup;
 			children = (
+				E3AD6B96211EAF0300E36332 /* ViewController */,
 				E31ED6912110932500DC3E7D /* AppDelegate.swift */,
-				E31ED6932110932500DC3E7D /* ViewController.swift */,
-				E31ED6A32115573B00DC3E7D /* StackViewLayoutViewController.swift */,
 				E31ED6A52119DD9500DC3E7D /* LabelsCell.swift */,
 				E3AD6B92211B34F000E36332 /* UIViewExtensions.swift */,
-				E3DB11EB211C22DD00B3F45B /* CoverViewController.swift */,
 				E3DB11ED211C236800B3F45B /* CoverView.swift */,
-				E3AD6B94211E9F4400E36332 /* MultiHierarchyViewController.swift */,
 				E31ED6952110932500DC3E7D /* Main.storyboard */,
 				E31ED6982110932600DC3E7D /* Assets.xcassets */,
 				E31ED69A2110932600DC3E7D /* LaunchScreen.storyboard */,
 				E31ED69D2110932600DC3E7D /* Info.plist */,
 			);
 			path = AutoLayoutDebugSample;
+			sourceTree = "<group>";
+		};
+		E3AD6B96211EAF0300E36332 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E31ED6932110932500DC3E7D /* ViewController.swift */,
+				E31ED6A32115573B00DC3E7D /* StackViewLayoutViewController.swift */,
+				E3DB11EB211C22DD00B3F45B /* CoverViewController.swift */,
+				E3AD6B94211E9F4400E36332 /* MultiHierarchyViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
