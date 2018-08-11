@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7gh-4V-uNP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oot-55-GfF">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -90,6 +90,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ptu-tA-QOq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="495" y="788"/>
+        </scene>
+        <!--Multi Hierarchy View Controller-->
+        <scene sceneID="Gbd-Qc-SX0">
+            <objects>
+                <viewController id="oot-55-GfF" customClass="MultiHierarchyViewController" customModule="AutoLayoutDebugSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bgV-mI-0Yl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ORH-s0-Ywj">
+                                <rect key="frame" x="20" y="40" width="240" height="120"/>
+                                <color key="backgroundColor" red="1" green="0.63333133338867831" blue="0.48893791493673577" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="4uI-bv-zUu"/>
+                                    <constraint firstAttribute="width" constant="240" id="SlH-yX-JHN"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ORH-s0-Ywj" firstAttribute="top" secondItem="RQ1-Qd-QDJ" secondAttribute="top" constant="20" id="DpS-Bc-dDT"/>
+                            <constraint firstItem="ORH-s0-Ywj" firstAttribute="leading" secondItem="RQ1-Qd-QDJ" secondAttribute="leading" constant="20" id="m2D-My-4ST"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RQ1-Qd-QDJ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PMw-D8-Yve" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1256" y="790"/>
         </scene>
         <!--Stack View Layout View Controller-->
         <scene sceneID="UjM-qa-mNb">
