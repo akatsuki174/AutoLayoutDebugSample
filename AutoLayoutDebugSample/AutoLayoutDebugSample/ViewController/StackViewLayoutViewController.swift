@@ -1,6 +1,7 @@
 import UIKit
 
 final class StackViewLayoutViewController: UIViewController {
+    @IBOutlet weak var greenView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -10,4 +11,9 @@ final class StackViewLayoutViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
+    @IBAction func tappedButton(_ sender: Any) {
+        print(greenView.constraintsAffectingLayout(for: .vertical))
+    }
+    
 }
