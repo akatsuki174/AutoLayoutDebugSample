@@ -109,14 +109,31 @@
                                 <rect key="frame" x="309" y="70" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="サマータイムっっ！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tA2-tB-a7n">
+                                <rect key="frame" x="20" y="150" width="183.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yeah!!!!!!!!!!!!!!!!!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLx-Tc-o1R">
+                                <rect key="frame" x="223.5" y="153" width="113.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="eLx-Tc-o1R" firstAttribute="centerY" secondItem="tA2-tB-a7n" secondAttribute="centerY" id="2NK-gS-iAN"/>
+                            <constraint firstItem="eLx-Tc-o1R" firstAttribute="leading" secondItem="tA2-tB-a7n" secondAttribute="trailing" constant="20" id="5hy-Yw-fbd"/>
+                            <constraint firstItem="tA2-tB-a7n" firstAttribute="top" secondItem="iDS-oA-gfq" secondAttribute="bottom" constant="50" id="8Ab-3I-20k"/>
+                            <constraint firstItem="MdL-c3-MaF" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="eLx-Tc-o1R" secondAttribute="trailing" constant="20" id="A1k-g4-NN6"/>
                             <constraint firstItem="rTC-D5-U5K" firstAttribute="leading" secondItem="iDS-oA-gfq" secondAttribute="trailing" constant="10" id="AVO-PV-GFn"/>
                             <constraint firstItem="iDS-oA-gfq" firstAttribute="top" secondItem="MdL-c3-MaF" secondAttribute="top" constant="50" id="QFI-C5-oYX"/>
                             <constraint firstItem="MdL-c3-MaF" firstAttribute="trailing" secondItem="rTC-D5-U5K" secondAttribute="trailing" constant="20" id="SXY-fc-icK"/>
                             <constraint firstItem="iDS-oA-gfq" firstAttribute="leading" secondItem="MdL-c3-MaF" secondAttribute="leading" constant="20" id="ZA8-vl-hbg"/>
                             <constraint firstItem="rTC-D5-U5K" firstAttribute="top" secondItem="iDS-oA-gfq" secondAttribute="top" id="ycq-wx-PVp"/>
+                            <constraint firstItem="tA2-tB-a7n" firstAttribute="leading" secondItem="iDS-oA-gfq" secondAttribute="leading" id="zJd-ZS-sYh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="MdL-c3-MaF"/>
                     </view>
@@ -215,7 +232,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AiJ-UO-Yxd">
-                                <rect key="frame" x="151" y="319" width="73" height="30"/>
+                                <rect key="frame" x="151" y="318.5" width="73" height="30"/>
                                 <state key="normal" title="Output log"/>
                                 <connections>
                                     <action selector="tappedButton:" destination="CFR-NX-Pfx" eventType="touchUpInside" id="iDf-rm-0t3"/>
