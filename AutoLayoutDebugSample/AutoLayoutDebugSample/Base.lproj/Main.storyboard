@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -109,14 +110,14 @@
                                 <rect key="frame" x="309" y="70" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="サマータイムっっ！！！！！！！！！！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tA2-tB-a7n">
-                                <rect key="frame" x="20" y="150" width="315" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="サマータイムっっ！！！！！！！！！！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tA2-tB-a7n">
+                                <rect key="frame" x="20" y="150" width="225" height="24"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yeah!!!!!!!!!!!!!!!!!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLx-Tc-o1R">
-                                <rect key="frame" x="355" y="153" width="0.0" height="18"/>
+                                <rect key="frame" x="265" y="153" width="90" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -124,6 +125,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="tA2-tB-a7n" firstAttribute="width" relation="lessThanOrEqual" secondItem="XBp-5i-pb0" secondAttribute="width" multiplier="0.6" id="0Oc-9U-vVX"/>
                             <constraint firstItem="eLx-Tc-o1R" firstAttribute="centerY" secondItem="tA2-tB-a7n" secondAttribute="centerY" id="2NK-gS-iAN"/>
                             <constraint firstItem="eLx-Tc-o1R" firstAttribute="leading" secondItem="tA2-tB-a7n" secondAttribute="trailing" constant="20" id="5hy-Yw-fbd"/>
                             <constraint firstItem="tA2-tB-a7n" firstAttribute="top" secondItem="iDS-oA-gfq" secondAttribute="bottom" constant="50" id="8Ab-3I-20k"/>
