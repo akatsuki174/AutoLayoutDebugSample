@@ -20,7 +20,8 @@ extension ViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? LabelsCell else { fatalError() }
+//        guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? LabelsCell else { fatalError() }
+        let cell = tableView.dequeueReusableCell(withIdentifier: "equalWidthViewCell", for: indexPath)
         return cell
     }
 }
