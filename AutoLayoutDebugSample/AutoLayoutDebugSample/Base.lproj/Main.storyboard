@@ -5,7 +5,6 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
@@ -24,43 +23,43 @@
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="equalWidthViewCell" rowHeight="60" id="cad-aK-8Ut">
                                 <rect key="frame" x="0.0" y="28" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cad-aK-8Ut" id="b4H-UJ-mcc">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cad-aK-8Ut" id="b4H-UJ-mcc">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5y9-96-pzl">
-                                            <rect key="frame" x="16" y="0.0" width="100" height="60"/>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5y9-96-pzl">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="60"/>
                                             <color key="backgroundColor" red="1" green="0.88058886712628714" blue="0.98144031009218058" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="60" id="5Ha-Mf-9FK"/>
                                                 <constraint firstAttribute="width" constant="100" id="GoE-DB-5dh"/>
                                             </constraints>
                                         </view>
-                                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eKY-ng-dj7">
-                                            <rect key="frame" x="137.5" y="0.0" width="100" height="60"/>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eKY-ng-dj7">
+                                            <rect key="frame" x="110" y="0.0" width="100" height="60"/>
                                             <color key="backgroundColor" red="0.76812067773078474" green="1" blue="0.81027705630845548" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="100" id="6j8-En-gpl"/>
                                                 <constraint firstAttribute="height" constant="60" id="R7F-Mb-Z4t"/>
                                             </constraints>
                                         </view>
-                                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fzi-nV-ojR">
-                                            <rect key="frame" x="259" y="0.0" width="100" height="60"/>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fzi-nV-ojR">
+                                            <rect key="frame" x="220" y="0.0" width="100" height="60"/>
                                             <color key="backgroundColor" red="0.99074790419960024" green="1" blue="0.79610745735820299" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="60" id="Lic-Fa-fcL"/>
                                                 <constraint firstAttribute="width" constant="100" id="vOk-Fn-1sE"/>
                                             </constraints>
                                         </view>
-                                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zy6-JB-flq">
-                                            <rect key="frame" x="116" y="0.0" width="21.5" height="59.5"/>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zy6-JB-flq">
+                                            <rect key="frame" x="100" y="0.0" width="10" height="59.5"/>
                                         </view>
-                                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4bX-St-GwY">
-                                            <rect key="frame" x="237.5" y="0.0" width="21.5" height="59.5"/>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4bX-St-GwY">
+                                            <rect key="frame" x="210" y="0.0" width="10" height="59.5"/>
                                         </view>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="trailingMargin" secondItem="Fzi-nV-ojR" secondAttribute="trailing" id="0kd-tN-pjH"/>
+                                        <constraint firstAttribute="trailing" secondItem="Fzi-nV-ojR" secondAttribute="trailing" id="0kd-tN-pjH"/>
                                         <constraint firstItem="zy6-JB-flq" firstAttribute="top" secondItem="b4H-UJ-mcc" secondAttribute="top" id="ESP-h9-vlP"/>
                                         <constraint firstItem="4bX-St-GwY" firstAttribute="width" secondItem="zy6-JB-flq" secondAttribute="width" id="EmE-uP-IWe"/>
                                         <constraint firstAttribute="bottom" secondItem="4bX-St-GwY" secondAttribute="bottom" id="Fyb-wE-G5D"/>
@@ -73,7 +72,7 @@
                                         <constraint firstItem="zy6-JB-flq" firstAttribute="leading" secondItem="5y9-96-pzl" secondAttribute="trailing" id="pKT-GW-hb7"/>
                                         <constraint firstItem="4bX-St-GwY" firstAttribute="leading" secondItem="eKY-ng-dj7" secondAttribute="trailing" id="uui-zf-paa"/>
                                         <constraint firstItem="Fzi-nV-ojR" firstAttribute="leading" secondItem="4bX-St-GwY" secondAttribute="trailing" id="vID-NB-OyA"/>
-                                        <constraint firstItem="5y9-96-pzl" firstAttribute="leading" secondItem="b4H-UJ-mcc" secondAttribute="leading" constant="16" id="zpG-iQ-Nhz"/>
+                                        <constraint firstItem="5y9-96-pzl" firstAttribute="leading" secondItem="b4H-UJ-mcc" secondAttribute="leading" id="zpG-iQ-Nhz"/>
                                     </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
