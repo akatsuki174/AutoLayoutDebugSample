@@ -1,6 +1,7 @@
 import UIKit
 
 extension UIView {
+    /// 曖昧なレイアウトをサブビューまで調べるメソッド
     func hasAmbiguity() -> Bool {
         var hasAmbiguity = false
 
@@ -19,6 +20,8 @@ extension UIView {
         return hasAmbiguity
     }
 
+    /// 曖昧な制約を持つviewに対して、制約を満たす範囲で
+    /// ランダムに足りない制約を補うメソッド
     func exerciseAmbiguityInLayoutRepeatedly(recursive: Bool) {
         #if DEBUG
         if self.hasAmbiguousLayout {
