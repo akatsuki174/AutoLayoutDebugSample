@@ -18,4 +18,18 @@ extension UIView {
         #endif
         return hasAmbiguity
     }
+
+    func exerciseAmbiguityInLayoutRepeatedly(recursive: Bool) {
+        #if DEBUG
+        if self.hasAmbiguousLayout {
+            Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(UIView.exerciseAmbiguityInLayout), userInfo: nil, repeats: true)
+        }
+
+        if recursive {
+            for view in subviews {
+                view.exerciseAmbiguityInLayoutRepeatedly(recursive: recursive)
+            }
+        }
+        #endif
+    }
 }
