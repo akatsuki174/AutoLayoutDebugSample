@@ -10,11 +10,13 @@ class AmbiguousViewController: UIViewController {
         blueView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(blueView)
 
-        blueView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 50.0).isActive = true
-        blueView.widthAnchor.constraint(equalTo: self.view.widthAnchor, multiplier: 0.25).isActive = true
+        blueView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        blueView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        blueView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.25).isActive = true
         blueView.heightAnchor.constraint(equalToConstant: 30.0).isActive = true
 
         print(self.view.hasAmbiguity())
+        blueView.exerciseAmbiguityInLayoutRepeatedly(recursive: true)
     }
 
     override func didReceiveMemoryWarning() {
