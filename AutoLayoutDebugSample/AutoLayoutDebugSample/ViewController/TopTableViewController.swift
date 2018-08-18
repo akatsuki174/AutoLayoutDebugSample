@@ -26,8 +26,18 @@ extension TopTableViewController {
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let storyboard = UIStoryboard(name: "EqualWidthView", bundle: nil)
+        let storyboardName = capitalizingFirstLetter(str: VCType.cases[indexPath.row].rawValue)
+        let storyboard = UIStoryboard(name: storyboardName, bundle: nil)
         guard let vc = storyboard.instantiateInitialViewController() else { return }
+        vc.title = storyboardName
         self.navigationController?.pushViewController(vc, animated: true)
+    }
+}
+
+extension TopTableViewController {
+    /// 先頭の文字を大文字にする
+    func capitalizingFirstLetter(str: String) -> String {
+        let lowerStr = str.lowercased()
+        return String(lowerStr.prefix(1).uppercased()) + String(str.dropFirst())
     }
 }
