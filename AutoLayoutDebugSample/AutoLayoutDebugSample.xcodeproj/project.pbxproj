@@ -90,6 +90,7 @@
 		E31ED6902110932500DC3E7D /* AutoLayoutDebugSample */ = {
 			isa = PBXGroup;
 			children = (
+				E3AD6BAF2127DB1100E36332 /* Storyboard */,
 				E3AD6B96211EAF0300E36332 /* ViewController */,
 				E31ED6912110932500DC3E7D /* AppDelegate.swift */,
 				E31ED6A52119DD9500DC3E7D /* LabelsCell.swift */,
@@ -99,13 +100,6 @@
 				E3AD6BA12127B5FA00E36332 /* EnumEnumerable.swift */,
 				E3AD6B9921207FD700E36332 /* AutoLayoutDebugSample-Bridging-Header.h */,
 				E3AD6B9A21207FD700E36332 /* PrivateMethods.h */,
-				E31ED6952110932500DC3E7D /* Main.storyboard */,
-				E3AD6BA32127C26000E36332 /* EqualWidthView.storyboard */,
-				E3AD6BA52127C29A00E36332 /* StackView.storyboard */,
-				E3AD6BA72127C35D00E36332 /* CoverView.storyboard */,
-				E3AD6BA92127C38100E36332 /* LayoutByCodeView.storyboard */,
-				E3AD6BAB2127C3A500E36332 /* MultiHierarchyView.storyboard */,
-				E3AD6BAD2127C3D900E36332 /* PriorityView.storyboard */,
 				E31ED6982110932600DC3E7D /* Assets.xcassets */,
 				E31ED69A2110932600DC3E7D /* LaunchScreen.storyboard */,
 				E31ED69D2110932600DC3E7D /* Info.plist */,
@@ -125,6 +119,20 @@
 				E3AD6B9B2126F60700E36332 /* LayoutByCodeViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E3AD6BAF2127DB1100E36332 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E31ED6952110932500DC3E7D /* Main.storyboard */,
+				E3AD6BA32127C26000E36332 /* EqualWidthView.storyboard */,
+				E3AD6BA52127C29A00E36332 /* StackView.storyboard */,
+				E3AD6BA72127C35D00E36332 /* CoverView.storyboard */,
+				E3AD6BA92127C38100E36332 /* LayoutByCodeView.storyboard */,
+				E3AD6BAB2127C3A500E36332 /* MultiHierarchyView.storyboard */,
+				E3AD6BAD2127C3D900E36332 /* PriorityView.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
