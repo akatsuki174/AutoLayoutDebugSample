@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zXZ-oR-KzE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Mcq-dI-dP9">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -8,7 +8,23 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Top Table View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="AqK-ql-Gi3">
+            <objects>
+                <navigationController id="Mcq-dI-dP9" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aPh-fU-qXc">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="zXZ-oR-KzE" kind="relationship" relationship="rootViewController" id="e9k-er-5qZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JRj-hN-bBB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1131" y="861"/>
+        </scene>
+        <!--VC List-->
         <scene sceneID="EZa-8s-qCz">
             <objects>
                 <tableViewController id="zXZ-oR-KzE" customClass="TopTableViewController" customModule="AutoLayoutDebugSample" customModuleProvider="target" sceneMemberID="viewController">
@@ -31,6 +47,7 @@
                             <outlet property="delegate" destination="zXZ-oR-KzE" id="M1S-sk-cr1"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="VC List" id="FM1-hp-wCG"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8br-n5-2Ve" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -24,4 +24,10 @@ extension TopTableViewController {
         cell.textLabel?.text = VCType.cases[indexPath.row].rawValue
         return cell
     }
+
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "EqualWidthView", bundle: nil)
+        guard let vc = storyboard.instantiateInitialViewController() else { return }
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
