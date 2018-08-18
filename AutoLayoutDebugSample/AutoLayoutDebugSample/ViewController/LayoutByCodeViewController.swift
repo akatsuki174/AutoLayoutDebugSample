@@ -1,6 +1,6 @@
 import UIKit
 
-class AmbiguousViewController: UIViewController {
+class LayoutByCodeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

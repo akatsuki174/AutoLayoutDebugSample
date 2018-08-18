@@ -1,6 +1,6 @@
 import UIKit
 
-class ViewController: UITableViewController {
+class EqualWidthViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

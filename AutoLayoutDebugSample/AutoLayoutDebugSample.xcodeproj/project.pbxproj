@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E31ED6922110932500DC3E7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31ED6912110932500DC3E7D /* AppDelegate.swift */; };
-		E31ED6942110932500DC3E7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31ED6932110932500DC3E7D /* ViewController.swift */; };
+		E31ED6942110932500DC3E7D /* EqualWidthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31ED6932110932500DC3E7D /* EqualWidthViewController.swift */; };
 		E31ED6972110932500DC3E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31ED6952110932500DC3E7D /* Main.storyboard */; };
 		E31ED6992110932600DC3E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31ED6982110932600DC3E7D /* Assets.xcassets */; };
 		E31ED69C2110932600DC3E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31ED69A2110932600DC3E7D /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 		E3AD6B93211B34F000E36332 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD6B92211B34F000E36332 /* UIViewExtensions.swift */; };
 		E3AD6B95211E9F4400E36332 /* MultiHierarchyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD6B94211E9F4400E36332 /* MultiHierarchyViewController.swift */; };
 		E3AD6B9821202D7B00E36332 /* PrioritySettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD6B9721202D7B00E36332 /* PrioritySettingViewController.swift */; };
-		E3AD6B9C2126F60700E36332 /* AmbiguousViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD6B9B2126F60700E36332 /* AmbiguousViewController.swift */; };
+		E3AD6B9C2126F60700E36332 /* LayoutByCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD6B9B2126F60700E36332 /* LayoutByCodeViewController.swift */; };
 		E3DB11EC211C22DD00B3F45B /* CoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DB11EB211C22DD00B3F45B /* CoverViewController.swift */; };
 		E3DB11EE211C236800B3F45B /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DB11ED211C236800B3F45B /* CoverView.swift */; };
 /* End PBXBuildFile section */
@@ -25,7 +25,7 @@
 /* Begin PBXFileReference section */
 		E31ED68E2110932500DC3E7D /* AutoLayoutDebugSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutDebugSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31ED6912110932500DC3E7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E31ED6932110932500DC3E7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E31ED6932110932500DC3E7D /* EqualWidthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualWidthViewController.swift; sourceTree = "<group>"; };
 		E31ED6962110932500DC3E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E31ED6982110932600DC3E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E31ED69B2110932600DC3E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 		E3AD6B9721202D7B00E36332 /* PrioritySettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrioritySettingViewController.swift; sourceTree = "<group>"; };
 		E3AD6B9921207FD700E36332 /* AutoLayoutDebugSample-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AutoLayoutDebugSample-Bridging-Header.h"; sourceTree = "<group>"; };
 		E3AD6B9A21207FD700E36332 /* PrivateMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateMethods.h; sourceTree = "<group>"; };
-		E3AD6B9B2126F60700E36332 /* AmbiguousViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbiguousViewController.swift; sourceTree = "<group>"; };
+		E3AD6B9B2126F60700E36332 /* LayoutByCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutByCodeViewController.swift; sourceTree = "<group>"; };
 		E3DB11EB211C22DD00B3F45B /* CoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverViewController.swift; sourceTree = "<group>"; };
 		E3DB11ED211C236800B3F45B /* CoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,12 +90,12 @@
 		E3AD6B96211EAF0300E36332 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				E31ED6932110932500DC3E7D /* ViewController.swift */,
+				E31ED6932110932500DC3E7D /* EqualWidthViewController.swift */,
 				E31ED6A32115573B00DC3E7D /* StackViewLayoutViewController.swift */,
 				E3DB11EB211C22DD00B3F45B /* CoverViewController.swift */,
 				E3AD6B94211E9F4400E36332 /* MultiHierarchyViewController.swift */,
 				E3AD6B9721202D7B00E36332 /* PrioritySettingViewController.swift */,
-				E3AD6B9B2126F60700E36332 /* AmbiguousViewController.swift */,
+				E3AD6B9B2126F60700E36332 /* LayoutByCodeViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -173,8 +173,8 @@
 			files = (
 				E3DB11EC211C22DD00B3F45B /* CoverViewController.swift in Sources */,
 				E3DB11EE211C236800B3F45B /* CoverView.swift in Sources */,
-				E31ED6942110932500DC3E7D /* ViewController.swift in Sources */,
-				E3AD6B9C2126F60700E36332 /* AmbiguousViewController.swift in Sources */,
+				E31ED6942110932500DC3E7D /* EqualWidthViewController.swift in Sources */,
+				E3AD6B9C2126F60700E36332 /* LayoutByCodeViewController.swift in Sources */,
 				E3AD6B93211B34F000E36332 /* UIViewExtensions.swift in Sources */,
 				E3AD6B9821202D7B00E36332 /* PrioritySettingViewController.swift in Sources */,
 				E31ED6A42115573B00DC3E7D /* StackViewLayoutViewController.swift in Sources */,
