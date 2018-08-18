@@ -5,4 +5,5 @@ enum VCType: String, EnumEnumerable {
     case multiHierarchyView
     case priorityView
     case layoutByCodeView
+    case verticalLabels
 }
