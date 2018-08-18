@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Equal Width View Controller-->
+        <scene sceneID="9q4-wA-GrA">
+            <objects>
+                <tableViewController id="RoL-oD-KLm" customClass="EqualWidthViewController" customModule="AutoLayoutDebugSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="8nM-FD-fHb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="equalWidthViewCell" rowHeight="60" id="rRe-Uv-yTK">
+                                <rect key="frame" x="0.0" y="28" width="375" height="60"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rRe-Uv-yTK" id="grZ-rP-xhb">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ACm-2P-NKb">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="60"/>
+                                            <color key="backgroundColor" red="1" green="0.88058886709999995" blue="0.98144031009999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="100" id="57x-gw-Rnz"/>
+                                                <constraint firstAttribute="height" constant="60" id="dY0-h8-dLz"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Khv-u6-avS">
+                                            <rect key="frame" x="137.5" y="0.0" width="100" height="60"/>
+                                            <color key="backgroundColor" red="0.76812067770000003" green="1" blue="0.81027705630000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="60" id="GJX-GS-lE5"/>
+                                                <constraint firstAttribute="width" constant="100" id="cXM-qT-Zyq"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lRl-bq-tiF">
+                                            <rect key="frame" x="275" y="0.0" width="100" height="60"/>
+                                            <color key="backgroundColor" red="0.99074790420000003" green="1" blue="0.7961074574" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="60" id="e02-v2-Sqq"/>
+                                                <constraint firstAttribute="width" constant="100" id="qbg-Rx-Ktq"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ar9-lw-6vZ">
+                                            <rect key="frame" x="100" y="0.0" width="37.5" height="59.5"/>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gDo-ud-MBc">
+                                            <rect key="frame" x="237.5" y="0.0" width="37.5" height="59.5"/>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="ACm-2P-NKb" firstAttribute="leading" secondItem="grZ-rP-xhb" secondAttribute="leading" id="0an-Rr-WD9"/>
+                                        <constraint firstItem="Khv-u6-avS" firstAttribute="top" secondItem="grZ-rP-xhb" secondAttribute="top" id="8w4-27-8AG"/>
+                                        <constraint firstAttribute="bottom" secondItem="gDo-ud-MBc" secondAttribute="bottom" id="9Pe-uB-W08"/>
+                                        <constraint firstAttribute="trailing" secondItem="lRl-bq-tiF" secondAttribute="trailing" id="Ck5-GQ-TRp"/>
+                                        <constraint firstItem="Ar9-lw-6vZ" firstAttribute="top" secondItem="grZ-rP-xhb" secondAttribute="top" id="MQO-tO-QI2"/>
+                                        <constraint firstItem="lRl-bq-tiF" firstAttribute="leading" secondItem="gDo-ud-MBc" secondAttribute="trailing" id="O7p-7m-Lam"/>
+                                        <constraint firstItem="gDo-ud-MBc" firstAttribute="width" secondItem="Ar9-lw-6vZ" secondAttribute="width" id="PMg-9F-2Er"/>
+                                        <constraint firstItem="Khv-u6-avS" firstAttribute="leading" secondItem="Ar9-lw-6vZ" secondAttribute="trailing" id="UgP-QE-Idd"/>
+                                        <constraint firstItem="ACm-2P-NKb" firstAttribute="top" secondItem="grZ-rP-xhb" secondAttribute="top" id="ZQW-V0-p7j"/>
+                                        <constraint firstItem="gDo-ud-MBc" firstAttribute="top" secondItem="grZ-rP-xhb" secondAttribute="top" id="dri-Ce-Iaf"/>
+                                        <constraint firstItem="gDo-ud-MBc" firstAttribute="leading" secondItem="Khv-u6-avS" secondAttribute="trailing" id="kJh-v6-xFn"/>
+                                        <constraint firstItem="Ar9-lw-6vZ" firstAttribute="leading" secondItem="ACm-2P-NKb" secondAttribute="trailing" id="mYR-I7-EK1"/>
+                                        <constraint firstAttribute="bottom" secondItem="Ar9-lw-6vZ" secondAttribute="bottom" id="ty5-Bc-kk3"/>
+                                        <constraint firstItem="lRl-bq-tiF" firstAttribute="top" secondItem="grZ-rP-xhb" secondAttribute="top" id="v5b-rg-hom"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="RoL-oD-KLm" id="CX4-GU-ESJ"/>
+                            <outlet property="delegate" destination="RoL-oD-KLm" id="RPG-Nq-jgG"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hUK-tr-Qva" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="495.19999999999999" y="91.304347826086968"/>
+        </scene>
+    </scenes>
+</document>

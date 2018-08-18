@@ -21,6 +21,12 @@
 		E3AD6B9E2127B30E00E36332 /* TopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD6B9D2127B30E00E36332 /* TopTableViewController.swift */; };
 		E3AD6BA02127B3E200E36332 /* VCType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD6B9F2127B3E200E36332 /* VCType.swift */; };
 		E3AD6BA22127B5FA00E36332 /* EnumEnumerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD6BA12127B5FA00E36332 /* EnumEnumerable.swift */; };
+		E3AD6BA42127C26000E36332 /* EqualWidthView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AD6BA32127C26000E36332 /* EqualWidthView.storyboard */; };
+		E3AD6BA62127C29A00E36332 /* StackView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AD6BA52127C29A00E36332 /* StackView.storyboard */; };
+		E3AD6BA82127C35D00E36332 /* CoverView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AD6BA72127C35D00E36332 /* CoverView.storyboard */; };
+		E3AD6BAA2127C38100E36332 /* LayoutByCodeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AD6BA92127C38100E36332 /* LayoutByCodeView.storyboard */; };
+		E3AD6BAC2127C3A600E36332 /* MultiHierarchyView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AD6BAB2127C3A500E36332 /* MultiHierarchyView.storyboard */; };
+		E3AD6BAE2127C3D900E36332 /* PriorityView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AD6BAD2127C3D900E36332 /* PriorityView.storyboard */; };
 		E3DB11EC211C22DD00B3F45B /* CoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DB11EB211C22DD00B3F45B /* CoverViewController.swift */; };
 		E3DB11EE211C236800B3F45B /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DB11ED211C236800B3F45B /* CoverView.swift */; };
 /* End PBXBuildFile section */
@@ -44,6 +50,12 @@
 		E3AD6B9D2127B30E00E36332 /* TopTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTableViewController.swift; sourceTree = "<group>"; };
 		E3AD6B9F2127B3E200E36332 /* VCType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCType.swift; sourceTree = "<group>"; };
 		E3AD6BA12127B5FA00E36332 /* EnumEnumerable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumEnumerable.swift; sourceTree = "<group>"; };
+		E3AD6BA32127C26000E36332 /* EqualWidthView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EqualWidthView.storyboard; sourceTree = "<group>"; };
+		E3AD6BA52127C29A00E36332 /* StackView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StackView.storyboard; sourceTree = "<group>"; };
+		E3AD6BA72127C35D00E36332 /* CoverView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CoverView.storyboard; sourceTree = "<group>"; };
+		E3AD6BA92127C38100E36332 /* LayoutByCodeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LayoutByCodeView.storyboard; sourceTree = "<group>"; };
+		E3AD6BAB2127C3A500E36332 /* MultiHierarchyView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MultiHierarchyView.storyboard; sourceTree = "<group>"; };
+		E3AD6BAD2127C3D900E36332 /* PriorityView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PriorityView.storyboard; sourceTree = "<group>"; };
 		E3DB11EB211C22DD00B3F45B /* CoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverViewController.swift; sourceTree = "<group>"; };
 		E3DB11ED211C236800B3F45B /* CoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +100,12 @@
 				E3AD6B9921207FD700E36332 /* AutoLayoutDebugSample-Bridging-Header.h */,
 				E3AD6B9A21207FD700E36332 /* PrivateMethods.h */,
 				E31ED6952110932500DC3E7D /* Main.storyboard */,
+				E3AD6BA32127C26000E36332 /* EqualWidthView.storyboard */,
+				E3AD6BA52127C29A00E36332 /* StackView.storyboard */,
+				E3AD6BA72127C35D00E36332 /* CoverView.storyboard */,
+				E3AD6BA92127C38100E36332 /* LayoutByCodeView.storyboard */,
+				E3AD6BAB2127C3A500E36332 /* MultiHierarchyView.storyboard */,
+				E3AD6BAD2127C3D900E36332 /* PriorityView.storyboard */,
 				E31ED6982110932600DC3E7D /* Assets.xcassets */,
 				E31ED69A2110932600DC3E7D /* LaunchScreen.storyboard */,
 				E31ED69D2110932600DC3E7D /* Info.plist */,
@@ -167,7 +185,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3AD6BA42127C26000E36332 /* EqualWidthView.storyboard in Resources */,
+				E3AD6BAE2127C3D900E36332 /* PriorityView.storyboard in Resources */,
+				E3AD6BAC2127C3A600E36332 /* MultiHierarchyView.storyboard in Resources */,
+				E3AD6BA82127C35D00E36332 /* CoverView.storyboard in Resources */,
 				E31ED69C2110932600DC3E7D /* LaunchScreen.storyboard in Resources */,
+				E3AD6BA62127C29A00E36332 /* StackView.storyboard in Resources */,
+				E3AD6BAA2127C38100E36332 /* LayoutByCodeView.storyboard in Resources */,
 				E31ED6992110932600DC3E7D /* Assets.xcassets in Resources */,
 				E31ED6972110932500DC3E7D /* Main.storyboard in Resources */,
 			);
