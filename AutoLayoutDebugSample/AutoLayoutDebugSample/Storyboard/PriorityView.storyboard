@@ -28,13 +28,13 @@
                                 <color key="backgroundColor" red="0.8322753906" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="サマータイムっっ！！！！！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fth-SX-Hyt">
-                                <rect key="frame" x="20" y="150" width="210" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="サマータイムっっ！！！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fth-SX-Hyt">
+                                <rect key="frame" x="20" y="150" width="220" height="24"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Yeah!!!!!!!!!!!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1lu-H5-E11">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Yeah!!!!!!!!!!!!" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1lu-H5-E11">
                                 <rect key="frame" x="250" y="153" width="50" height="18"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="van-c4-lOd"/>
@@ -53,7 +53,7 @@
                             <constraint firstItem="aXW-s6-oBN" firstAttribute="top" secondItem="XNp-dK-tEJ" secondAttribute="top" constant="50" id="LfG-X8-Zlx"/>
                             <constraint firstItem="fth-SX-Hyt" firstAttribute="top" secondItem="aXW-s6-oBN" secondAttribute="bottom" constant="50" id="RbK-b1-s7Y"/>
                             <constraint firstItem="ezh-UI-fAn" firstAttribute="top" secondItem="aXW-s6-oBN" secondAttribute="top" id="TbV-VX-FnS"/>
-                            <constraint firstItem="1lu-H5-E11" firstAttribute="leading" secondItem="fth-SX-Hyt" secondAttribute="trailing" constant="20" id="bgy-Uz-Qcl"/>
+                            <constraint firstItem="1lu-H5-E11" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fth-SX-Hyt" secondAttribute="trailing" constant="10" id="bgy-Uz-Qcl"/>
                             <constraint firstItem="1lu-H5-E11" firstAttribute="centerY" secondItem="fth-SX-Hyt" secondAttribute="centerY" id="t4X-tD-5gJ"/>
                             <constraint firstItem="ezh-UI-fAn" firstAttribute="leading" secondItem="aXW-s6-oBN" secondAttribute="trailing" constant="10" id="w2c-wh-Dg6"/>
                         </constraints>
