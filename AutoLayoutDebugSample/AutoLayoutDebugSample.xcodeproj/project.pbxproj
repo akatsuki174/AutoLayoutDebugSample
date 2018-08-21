@@ -14,6 +14,8 @@
 		E31ED69C2110932600DC3E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31ED69A2110932600DC3E7D /* LaunchScreen.storyboard */; };
 		E31ED6A42115573B00DC3E7D /* StackViewLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31ED6A32115573B00DC3E7D /* StackViewLayoutViewController.swift */; };
 		E31ED6A62119DD9500DC3E7D /* LabelsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31ED6A52119DD9500DC3E7D /* LabelsCell.swift */; };
+		E34B832D212BF4DD0073717F /* WarningView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34B832C212BF4DD0073717F /* WarningView.storyboard */; };
+		E34B832F212BF59F0073717F /* WarningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34B832E212BF59F0073717F /* WarningViewController.swift */; };
 		E3AD6B93211B34F000E36332 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD6B92211B34F000E36332 /* UIViewExtensions.swift */; };
 		E3AD6B95211E9F4400E36332 /* MultiHierarchyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD6B94211E9F4400E36332 /* MultiHierarchyViewController.swift */; };
 		E3AD6B9821202D7B00E36332 /* PrioritySettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD6B9721202D7B00E36332 /* PrioritySettingViewController.swift */; };
@@ -43,6 +45,8 @@
 		E31ED69D2110932600DC3E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E31ED6A32115573B00DC3E7D /* StackViewLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewLayoutViewController.swift; sourceTree = "<group>"; };
 		E31ED6A52119DD9500DC3E7D /* LabelsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsCell.swift; sourceTree = "<group>"; };
+		E34B832C212BF4DD0073717F /* WarningView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WarningView.storyboard; sourceTree = "<group>"; };
+		E34B832E212BF59F0073717F /* WarningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningViewController.swift; sourceTree = "<group>"; };
 		E3AD6B92211B34F000E36332 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		E3AD6B94211E9F4400E36332 /* MultiHierarchyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiHierarchyViewController.swift; sourceTree = "<group>"; };
 		E3AD6B9721202D7B00E36332 /* PrioritySettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrioritySettingViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +126,7 @@
 				E3AD6B9721202D7B00E36332 /* PrioritySettingViewController.swift */,
 				E3AD6B9B2126F60700E36332 /* LayoutByCodeViewController.swift */,
 				E3AD6BB22127DC9500E36332 /* VerticalLabelsTableViewController.storyboard.swift */,
+				E34B832E212BF59F0073717F /* WarningViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 		E3AD6BAF2127DB1100E36332 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				E34B832C212BF4DD0073717F /* WarningView.storyboard */,
 				E31ED6952110932500DC3E7D /* Main.storyboard */,
 				E3AD6BA32127C26000E36332 /* EqualWidthView.storyboard */,
 				E3AD6BA52127C29A00E36332 /* StackView.storyboard */,
@@ -206,6 +212,7 @@
 				E3AD6BA82127C35D00E36332 /* CoverView.storyboard in Resources */,
 				E31ED69C2110932600DC3E7D /* LaunchScreen.storyboard in Resources */,
 				E3AD6BA62127C29A00E36332 /* StackView.storyboard in Resources */,
+				E34B832D212BF4DD0073717F /* WarningView.storyboard in Resources */,
 				E3AD6BAA2127C38100E36332 /* LayoutByCodeView.storyboard in Resources */,
 				E31ED6992110932600DC3E7D /* Assets.xcassets in Resources */,
 				E31ED6972110932500DC3E7D /* Main.storyboard in Resources */,
@@ -228,6 +235,7 @@
 				E3AD6B93211B34F000E36332 /* UIViewExtensions.swift in Sources */,
 				E3AD6BA02127B3E200E36332 /* VCType.swift in Sources */,
 				E3AD6B9821202D7B00E36332 /* PrioritySettingViewController.swift in Sources */,
+				E34B832F212BF59F0073717F /* WarningViewController.swift in Sources */,
 				E31ED6A42115573B00DC3E7D /* StackViewLayoutViewController.swift in Sources */,
 				E31ED6A62119DD9500DC3E7D /* LabelsCell.swift in Sources */,
 				E3AD6B95211E9F4400E36332 /* MultiHierarchyViewController.swift in Sources */,
