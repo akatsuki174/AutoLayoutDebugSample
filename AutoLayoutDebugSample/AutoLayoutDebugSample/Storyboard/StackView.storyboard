@@ -43,8 +43,22 @@
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Vs-hw-Ylz">
                                                         <rect key="frame" x="0.0" y="0.0" width="173.5" height="204"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4b-pv-KhK">
+                                                                <rect key="frame" x="30" y="78" width="112" height="48"/>
+                                                                <state key="normal">
+                                                                    <string key="title">Output this view
+constraints</string>
+                                                                </state>
+                                                                <connections>
+                                                                    <action selector="outputGreenViewConstraints:" destination="pWB-d1-O2Z" eventType="touchUpInside" id="6E8-oj-GH7"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
                                                         <color key="backgroundColor" red="0.78264068190000002" green="1" blue="0.7360988986" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
+                                                            <constraint firstItem="c4b-pv-KhK" firstAttribute="centerX" secondItem="8Vs-hw-Ylz" secondAttribute="centerX" id="1FB-xG-498"/>
+                                                            <constraint firstItem="c4b-pv-KhK" firstAttribute="centerY" secondItem="8Vs-hw-Ylz" secondAttribute="centerY" id="6Io-Ob-kMH"/>
                                                             <constraint firstAttribute="width" secondItem="8Vs-hw-Ylz" secondAttribute="height" multiplier="1:1" id="fVk-vO-Lg1"/>
                                                         </constraints>
                                                     </view>
@@ -54,14 +68,24 @@
                                                     </view>
                                                 </subviews>
                                             </stackView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kDb-qY-21K">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7as-v5-G2o">
                                                 <rect key="frame" x="0.0" y="423.5" width="355" height="203.5"/>
-                                                <color key="backgroundColor" red="0.96674382339999998" green="0.98750187990000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNi-zA-oBQ">
+                                                        <rect key="frame" x="57" y="86.5" width="241" height="30"/>
+                                                        <state key="normal" title="Output base stack view constraints"/>
+                                                        <connections>
+                                                            <action selector="outputBaseStackViewConstraint:" destination="pWB-d1-O2Z" eventType="touchUpInside" id="HcD-JN-qNs"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.73333333329999995" green="0.74117647060000003" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstItem="dNi-zA-oBQ" firstAttribute="centerY" secondItem="7as-v5-G2o" secondAttribute="centerY" id="P54-ku-vyc"/>
+                                                    <constraint firstItem="dNi-zA-oBQ" firstAttribute="centerX" secondItem="7as-v5-G2o" secondAttribute="centerX" id="eWB-L7-AW7"/>
+                                                </constraints>
                                                 <variation key="heightClass=compact" hidden="YES"/>
-                                            </label>
+                                            </view>
                                         </subviews>
                                     </stackView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="M4d-Ua-LZf">
@@ -74,21 +98,12 @@
                                     </textView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNi-zA-oBQ">
-                                <rect key="frame" x="151" y="318.5" width="73" height="30"/>
-                                <state key="normal" title="Output log"/>
-                                <connections>
-                                    <action selector="tappedButton:" destination="pWB-d1-O2Z" eventType="touchUpInside" id="B47-fE-Shv"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="VdP-95-lNx" firstAttribute="leading" secondItem="haJ-RM-o6e" secondAttribute="leading" constant="10" id="2aR-JD-zwe"/>
-                            <constraint firstItem="dNi-zA-oBQ" firstAttribute="centerY" secondItem="u2g-4Y-TXN" secondAttribute="centerY" id="3kr-80-DhL"/>
                             <constraint firstItem="haJ-RM-o6e" firstAttribute="trailing" secondItem="VdP-95-lNx" secondAttribute="trailing" constant="10" id="JFy-Kk-yKd"/>
                             <constraint firstItem="haJ-RM-o6e" firstAttribute="bottom" secondItem="VdP-95-lNx" secondAttribute="bottom" constant="10" id="afB-YG-V42"/>
-                            <constraint firstItem="dNi-zA-oBQ" firstAttribute="centerX" secondItem="u2g-4Y-TXN" secondAttribute="centerX" id="fIb-rp-HaO"/>
                             <constraint firstItem="VdP-95-lNx" firstAttribute="top" secondItem="haJ-RM-o6e" secondAttribute="top" constant="10" id="flo-4b-8bR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="haJ-RM-o6e"/>
@@ -96,6 +111,7 @@
                     <connections>
                         <outlet property="baseStackView" destination="VdP-95-lNx" id="WL4-ql-mJ6"/>
                         <outlet property="greenView" destination="8Vs-hw-Ylz" id="Ue9-F2-7bm"/>
+                        <outlet property="outputGreenViewConstraintsButton" destination="c4b-pv-KhK" id="oqY-Bq-fWy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ztr-pd-8tJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
