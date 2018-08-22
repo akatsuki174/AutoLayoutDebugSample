@@ -21,6 +21,19 @@ final class StackViewLayoutViewController: UIViewController {
     }
     
     @IBAction func outputGreenViewConstraints(_ sender: Any) {
-        print(greenView.constraintsAffectingLayout(for: .vertical))
+        let alert = UIAlertController(title: "Output constraints", message: "Which axis?", preferredStyle: .actionSheet)
+        let horizontal = UIAlertAction(title: "Horizontal", style: .default, handler: { [weak self] _ in
+            let constraints = self?.greenView.constraintsAffectingLayout(for: .horizontal)
+            constraints?.forEach { print($0) }
+        })
+        let vertical = UIAlertAction(title: "Vertical", style: .default, handler: { [weak self] _ in
+            let constraints = self?.greenView.constraintsAffectingLayout(for: .vertical)
+            constraints?.forEach { print($0) }
+        })
+        let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+        alert.addAction(horizontal)
+        alert.addAction(vertical)
+        alert.addAction(cancel)
+        self.present(alert, animated: true, completion: nil)
     }
 }
