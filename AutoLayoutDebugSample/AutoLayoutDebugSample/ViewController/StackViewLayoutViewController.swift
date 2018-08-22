@@ -1,6 +1,7 @@
 import UIKit
 
 final class StackViewLayoutViewController: UIViewController {
+    @IBOutlet weak var baseStackView: UIStackView!
     @IBOutlet weak var greenView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -13,7 +14,8 @@ final class StackViewLayoutViewController: UIViewController {
     }
 
     @IBAction func tappedButton(_ sender: Any) {
-        print(greenView.constraintsAffectingLayout(for: .vertical))
+//        print(greenView.constraintsAffectingLayout(for: .vertical))
+        self.view.constraintsReferringView(view: baseStackView)
     }
     
 }

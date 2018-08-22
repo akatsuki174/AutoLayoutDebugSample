@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -43,6 +44,9 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Vs-hw-Ylz">
                                                         <rect key="frame" x="0.0" y="0.0" width="173.5" height="204"/>
                                                         <color key="backgroundColor" red="0.78264068190000002" green="1" blue="0.7360988986" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="8Vs-hw-Ylz" secondAttribute="height" multiplier="1:1" id="fVk-vO-Lg1"/>
+                                                        </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WYY-v5-PGq">
                                                         <rect key="frame" x="181.5" y="0.0" width="173.5" height="204"/>
@@ -90,6 +94,7 @@
                         <viewLayoutGuide key="safeArea" id="haJ-RM-o6e"/>
                     </view>
                     <connections>
+                        <outlet property="baseStackView" destination="VdP-95-lNx" id="WL4-ql-mJ6"/>
                         <outlet property="greenView" destination="8Vs-hw-Ylz" id="Ue9-F2-7bm"/>
                     </connections>
                 </viewController>
