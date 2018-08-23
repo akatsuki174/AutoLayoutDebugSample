@@ -67,6 +67,11 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="imageHeightConstraint" destination="tLp-wt-tFu" id="K5m-kM-D5x"/>
+                <outlet property="imageTopConstraint" destination="aIE-80-xdh" id="ssg-ZK-ALn"/>
+                <outlet property="mainImageView" destination="OpD-wy-gRN" id="3zv-uy-kd6"/>
+            </connections>
             <point key="canvasLocation" x="147.5" y="246.5"/>
         </view>
     </objects>

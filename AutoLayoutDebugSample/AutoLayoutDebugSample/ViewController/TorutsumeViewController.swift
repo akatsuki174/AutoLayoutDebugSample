@@ -19,6 +19,7 @@ extension TorutsumeViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: TorutsumeCell.reuseIdentifier) as? TorutsumeCell else { fatalError() }
+        cell.setup(index: indexPath.row)
         return cell
     }
 
