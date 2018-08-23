@@ -17,6 +17,7 @@ final class StackViewLayoutViewController: UIViewController {
     }
 
     @IBAction func outputBaseStackViewConstraint(_ sender: Any) {
+        // self.viewとbaseStackViewに関連する制約だけを出力
         self.view.constraintsReferringView(view: baseStackView)
     }
     
