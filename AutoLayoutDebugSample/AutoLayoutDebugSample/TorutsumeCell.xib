@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="603" height="269"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I will blog!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBS-RI-hei">
+                    <rect key="frame" x="20" y="20" width="76" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oHR-uM-Vqx">
+                    <rect key="frame" x="20" y="61" width="563" height="188"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="you will blog???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aCP-t0-q4X">
+                            <rect key="frame" x="20" y="20" width="119.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OpD-wy-gRN">
+                            <rect key="frame" x="20" y="61" width="523" height="66"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="we will blog!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AoX-A3-jZz">
+                            <rect key="frame" x="20" y="147" width="93.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.87667342918140656" green="0.91229162805257047" blue="0.9458116888999939" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstItem="AoX-A3-jZz" firstAttribute="top" secondItem="OpD-wy-gRN" secondAttribute="bottom" constant="20" id="2re-X3-8zo"/>
+                        <constraint firstItem="aCP-t0-q4X" firstAttribute="top" secondItem="oHR-uM-Vqx" secondAttribute="top" constant="20" id="D73-nU-Mll"/>
+                        <constraint firstItem="AoX-A3-jZz" firstAttribute="leading" secondItem="OpD-wy-gRN" secondAttribute="leading" id="ICZ-Zg-1Qt"/>
+                        <constraint firstAttribute="trailing" secondItem="OpD-wy-gRN" secondAttribute="trailing" constant="20" id="NAC-qT-JAx"/>
+                        <constraint firstItem="OpD-wy-gRN" firstAttribute="top" secondItem="aCP-t0-q4X" secondAttribute="bottom" constant="20" id="aIE-80-xdh"/>
+                        <constraint firstAttribute="bottom" secondItem="AoX-A3-jZz" secondAttribute="bottom" constant="20" id="fLL-aB-gbq"/>
+                        <constraint firstItem="aCP-t0-q4X" firstAttribute="leading" secondItem="oHR-uM-Vqx" secondAttribute="leading" constant="20" id="h9K-Xc-vM9"/>
+                        <constraint firstItem="OpD-wy-gRN" firstAttribute="leading" secondItem="aCP-t0-q4X" secondAttribute="leading" id="jNb-CB-TSd"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="oHR-uM-Vqx" secondAttribute="bottom" constant="20" id="3fm-hx-Un7"/>
+                <constraint firstItem="oHR-uM-Vqx" firstAttribute="top" secondItem="gBS-RI-hei" secondAttribute="bottom" constant="20" id="9yc-JM-AGh"/>
+                <constraint firstItem="gBS-RI-hei" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="qJp-xE-kr0"/>
+                <constraint firstItem="oHR-uM-Vqx" firstAttribute="leading" secondItem="gBS-RI-hei" secondAttribute="leading" id="w3G-sd-k68"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="oHR-uM-Vqx" secondAttribute="trailing" constant="20" id="zOj-eI-djs"/>
+                <constraint firstItem="gBS-RI-hei" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="zmj-pm-27N"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="147.5" y="252.5"/>
+        </view>
+    </objects>
+</document>
