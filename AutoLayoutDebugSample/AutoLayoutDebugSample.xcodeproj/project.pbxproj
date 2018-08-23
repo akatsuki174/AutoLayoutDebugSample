@@ -19,6 +19,7 @@
 		E34B832D212BF4DD0073717F /* WarningView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34B832C212BF4DD0073717F /* WarningView.storyboard */; };
 		E34B832F212BF59F0073717F /* WarningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34B832E212BF59F0073717F /* WarningViewController.swift */; };
 		E3600B82212EB12D008ED983 /* TorutsumeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3600B81212EB12D008ED983 /* TorutsumeCell.xib */; };
+		E3600B84212EC0C4008ED983 /* TorutsumeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3600B83212EC0C4008ED983 /* TorutsumeCell.swift */; };
 		E3AD6B93211B34F000E36332 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD6B92211B34F000E36332 /* UIViewExtensions.swift */; };
 		E3AD6B95211E9F4400E36332 /* MultiHierarchyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD6B94211E9F4400E36332 /* MultiHierarchyViewController.swift */; };
 		E3AD6B9821202D7B00E36332 /* PrioritySettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD6B9721202D7B00E36332 /* PrioritySettingViewController.swift */; };
@@ -53,6 +54,7 @@
 		E34B832C212BF4DD0073717F /* WarningView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WarningView.storyboard; sourceTree = "<group>"; };
 		E34B832E212BF59F0073717F /* WarningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningViewController.swift; sourceTree = "<group>"; };
 		E3600B81212EB12D008ED983 /* TorutsumeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TorutsumeCell.xib; sourceTree = "<group>"; };
+		E3600B83212EC0C4008ED983 /* TorutsumeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorutsumeCell.swift; sourceTree = "<group>"; };
 		E3AD6B92211B34F000E36332 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		E3AD6B94211E9F4400E36332 /* MultiHierarchyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiHierarchyViewController.swift; sourceTree = "<group>"; };
 		E3AD6B9721202D7B00E36332 /* PrioritySettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrioritySettingViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				E3AD6B9F2127B3E200E36332 /* VCType.swift */,
 				E3AD6BA12127B5FA00E36332 /* EnumEnumerable.swift */,
 				E3600B81212EB12D008ED983 /* TorutsumeCell.xib */,
+				E3600B83212EC0C4008ED983 /* TorutsumeCell.swift */,
 				E3AD6B9921207FD700E36332 /* AutoLayoutDebugSample-Bridging-Header.h */,
 				E3AD6B9A21207FD700E36332 /* PrivateMethods.h */,
 				E31ED6982110932600DC3E7D /* Assets.xcassets */,
@@ -253,6 +256,7 @@
 				E3AD6B95211E9F4400E36332 /* MultiHierarchyViewController.swift in Sources */,
 				E3AD6BA22127B5FA00E36332 /* EnumEnumerable.swift in Sources */,
 				E31ED6922110932500DC3E7D /* AppDelegate.swift in Sources */,
+				E3600B84212EC0C4008ED983 /* TorutsumeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

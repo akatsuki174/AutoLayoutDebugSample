@@ -7,5 +7,5 @@ enum VCType: String, EnumEnumerable {
     case layoutByCodeView
     case verticalLabels
     case warningView
-    case manyView
+    case torutsumeView
 }
