@@ -36,10 +36,10 @@ extension UIView {
         #endif
     }
 
-    /// あるviewが持つ制約だけ取得したい時に使うメソッド
+    /// ある2つのviewに関わる制約だけ取得したい時に使うメソッド
     /// ある程度あたりが付いている時に使うと良い
     /// 現在のビューコンポーネントの中でview（引数）を対象にしている制約だけ出力する
-    func constraintsReferringView(view: UIView) {
+    func outputConstraintsReferringView(view: UIView) {
         constraints.forEach { constraint in
             if constraint.firstItem as? UIView == view || constraint.secondItem as? UIView == view {
                 print(constraint)
