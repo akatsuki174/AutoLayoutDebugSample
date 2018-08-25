@@ -34,7 +34,9 @@ final class CoverView: UIView {
         messageLabel.numberOfLines = 0
         messageLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         messageLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 150).isActive = true
-        messageLabel.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.85).isActive = true
+        let messageWidthConstraint = messageLabel.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.85)
+        messageWidthConstraint.isActive = true
+        messageWidthConstraint.identifier = "messageLabelWidth"
         messageLabel.heightAnchor.constraint(equalToConstant: 120).isActive = true
         messageLabel.text = "シャイニング\nマンデぇぇぇぇ"
 
