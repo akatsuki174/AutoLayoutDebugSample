@@ -7,10 +7,11 @@ extension UIView {
 
         #if DEBUG
         if self.hasAmbiguousLayout {
-            print("description: \(self.description)")
+            print("description:::::::::::::: \(self.description)")
             hasAmbiguity = true
         }
 
+        // サブビューまで再帰的に調べる
         for view in self.subviews {
             if view.hasAmbiguity() {
                 hasAmbiguity = true
