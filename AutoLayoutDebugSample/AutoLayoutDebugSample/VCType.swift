@@ -1,11 +1,11 @@
 enum VCType: String, EnumEnumerable {
-    case equalWidthView
-    case stackView
+    case warningView
     case coverView
+    case stackView
+    case verticalLabels
     case multiHierarchyView
     case priorityView
+    case equalWidthView
     case layoutByCodeView
-    case verticalLabels
-    case warningView
 //    case torutsumeView // うまい例が作れなかった
 }
