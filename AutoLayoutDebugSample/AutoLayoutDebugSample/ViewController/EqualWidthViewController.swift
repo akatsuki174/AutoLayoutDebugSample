@@ -4,7 +4,7 @@ class EqualWidthViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        tableView.rowHeight = 60
     }
 
     override func didReceiveMemoryWarning() {

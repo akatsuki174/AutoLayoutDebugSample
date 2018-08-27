@@ -14,6 +14,9 @@ final class CoverView: UIView {
     func show(in view: UIView) {
         // Cover view layout
         view.addSubview(self)
+        self.translatesAutoresizingMaskIntoConstraints = false
+        view.accessibilityIdentifier = "superView"
+        self.accessibilityIdentifier = "coverView"
         self.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         self.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         self.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
@@ -23,6 +26,8 @@ final class CoverView: UIView {
 
         // messageLabel layout
         addSubview(messageLabel)
+        messageLabel.translatesAutoresizingMaskIntoConstraints = false
+        messageLabel.accessibilityIdentifier = "messageLabel"
         messageLabel.font = UIFont.systemFont(ofSize: 36)
         messageLabel.textColor = UIColor.white
         messageLabel.textAlignment = .center
@@ -31,6 +36,7 @@ final class CoverView: UIView {
         messageLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 150).isActive = true
         let messageWidthConstraint = messageLabel.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.85)
         messageWidthConstraint.isActive = true
+        messageWidthConstraint.identifier = "messageLabelWidth"
         messageLabel.heightAnchor.constraint(equalToConstant: 120).isActive = true
         messageLabel.text = "シャイニング\nマンデぇぇぇぇ"
 
