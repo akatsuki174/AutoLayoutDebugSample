@@ -14,7 +14,7 @@ final class MultiHierarchyViewController: UIViewController {
         _ = self.addViewTo(view: grayView, frame: CGRect(x: 200, y: 150, width: 50, height: 150), color: UIColor.green)
 
         // 重なってるview
-        let brownView = self.addViewTo(view: grayView, frame: CGRect(x: 50, y: 180, width: 80, height: 80), color: UIColor.brown)
+        let brownView = self.addViewTo(view: self.view, frame: CGRect(x: 50, y: 180, width: 80, height: 80), color: UIColor.brown)
         let yellowView = self.addViewTo(view: brownView, frame: CGRect(x: 10, y: 10, width: 60, height: 60), color: UIColor.yellow)
         _ = self.addViewTo(view: yellowView, frame: CGRect(x: 10, y: 10, width: 40, height: 40), color: UIColor.purple)
 
