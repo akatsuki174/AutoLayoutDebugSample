@@ -20,7 +20,7 @@
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="eh9-oX-wwE">
                                 <rect key="frame" x="10" y="332.5" width="355" height="2"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="355" id="U7e-Wn-aY7"/>
+                                    <constraint firstAttribute="width" constant="355" id="Mrm-G0-DAj"/>
                                 </constraints>
                             </progressView>
                         </subviews>

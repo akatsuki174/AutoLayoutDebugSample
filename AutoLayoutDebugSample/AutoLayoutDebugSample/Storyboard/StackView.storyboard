@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -57,6 +58,7 @@ constraints</string>
                                                         <color key="backgroundColor" red="0.78264068190000002" green="1" blue="0.7360988986" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstItem="c4b-pv-KhK" firstAttribute="centerX" secondItem="8Vs-hw-Ylz" secondAttribute="centerX" id="1FB-xG-498"/>
+                                                            <constraint firstAttribute="width" secondItem="8Vs-hw-Ylz" secondAttribute="height" multiplier="1:1" id="3he-7E-rpp"/>
                                                             <constraint firstItem="c4b-pv-KhK" firstAttribute="centerY" secondItem="8Vs-hw-Ylz" secondAttribute="centerY" id="6Io-Ob-kMH"/>
                                                         </constraints>
                                                     </view>

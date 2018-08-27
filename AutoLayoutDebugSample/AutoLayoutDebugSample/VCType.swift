@@ -7,5 +7,6 @@ enum VCType: String, EnumEnumerable {
     case priorityView
     case equalWidthView
     case layoutByCodeView
-//    case torutsumeView // うまい例が作れなかった
+    // うまい例が作れなかった
+//    case torutsumeView
 }
