@@ -15,7 +15,7 @@ final class CoverView: UIView {
         // Cover view layout
         view.addSubview(self)
 //        self.translatesAutoresizingMaskIntoConstraints = false
-        view.accessibilityIdentifier = "selfView"
+        view.accessibilityIdentifier = "baseView"
         self.accessibilityIdentifier = "coverView"
         self.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         self.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
