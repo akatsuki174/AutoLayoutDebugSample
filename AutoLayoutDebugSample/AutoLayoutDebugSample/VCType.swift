@@ -1,4 +1,4 @@
-enum VCType: String, EnumEnumerable {
+enum VCType: String, CaseIterable {
     case warningView
     case coverView
     case stackView
