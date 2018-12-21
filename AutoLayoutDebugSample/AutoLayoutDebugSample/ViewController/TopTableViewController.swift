@@ -16,17 +16,17 @@ class TopTableViewController: UITableViewController {
 
 extension TopTableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return VCType.count
+        return VCType.allCases.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = VCType.cases[indexPath.row].rawValue
+        cell.textLabel?.text = VCType.allCases[indexPath.row].rawValue
         return cell
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let storyboardName = capitalizingFirstLetter(str: VCType.cases[indexPath.row].rawValue)
+        let storyboardName = capitalizingFirstLetter(str: VCType.allCases[indexPath.row].rawValue)
         let storyboard = UIStoryboard(name: storyboardName, bundle: nil)
         guard let vc = storyboard.instantiateInitialViewController() else { return }
         vc.title = storyboardName

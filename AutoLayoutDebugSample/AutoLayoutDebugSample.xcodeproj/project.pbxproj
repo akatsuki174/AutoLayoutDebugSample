@@ -26,7 +26,6 @@
 		E3AD6B9C2126F60700E36332 /* LayoutByCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD6B9B2126F60700E36332 /* LayoutByCodeViewController.swift */; };
 		E3AD6B9E2127B30E00E36332 /* TopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD6B9D2127B30E00E36332 /* TopTableViewController.swift */; };
 		E3AD6BA02127B3E200E36332 /* VCType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD6B9F2127B3E200E36332 /* VCType.swift */; };
-		E3AD6BA22127B5FA00E36332 /* EnumEnumerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD6BA12127B5FA00E36332 /* EnumEnumerable.swift */; };
 		E3AD6BA42127C26000E36332 /* EqualWidthView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AD6BA32127C26000E36332 /* EqualWidthView.storyboard */; };
 		E3AD6BA62127C29A00E36332 /* StackView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AD6BA52127C29A00E36332 /* StackView.storyboard */; };
 		E3AD6BA82127C35D00E36332 /* CoverView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AD6BA72127C35D00E36332 /* CoverView.storyboard */; };
@@ -63,7 +62,6 @@
 		E3AD6B9B2126F60700E36332 /* LayoutByCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutByCodeViewController.swift; sourceTree = "<group>"; };
 		E3AD6B9D2127B30E00E36332 /* TopTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTableViewController.swift; sourceTree = "<group>"; };
 		E3AD6B9F2127B3E200E36332 /* VCType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCType.swift; sourceTree = "<group>"; };
-		E3AD6BA12127B5FA00E36332 /* EnumEnumerable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumEnumerable.swift; sourceTree = "<group>"; };
 		E3AD6BA32127C26000E36332 /* EqualWidthView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EqualWidthView.storyboard; sourceTree = "<group>"; };
 		E3AD6BA52127C29A00E36332 /* StackView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StackView.storyboard; sourceTree = "<group>"; };
 		E3AD6BA72127C35D00E36332 /* CoverView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CoverView.storyboard; sourceTree = "<group>"; };
@@ -113,7 +111,6 @@
 				E3AD6B92211B34F000E36332 /* UIViewExtensions.swift */,
 				E3DB11ED211C236800B3F45B /* CoverView.swift */,
 				E3AD6B9F2127B3E200E36332 /* VCType.swift */,
-				E3AD6BA12127B5FA00E36332 /* EnumEnumerable.swift */,
 				E3600B81212EB12D008ED983 /* TorutsumeCell.xib */,
 				E3600B83212EC0C4008ED983 /* TorutsumeCell.swift */,
 				E3AD6B9921207FD700E36332 /* AutoLayoutDebugSample-Bridging-Header.h */,
@@ -255,7 +252,6 @@
 				E31ED6A42115573B00DC3E7D /* StackViewLayoutViewController.swift in Sources */,
 				E31ED6A62119DD9500DC3E7D /* LabelsCell.swift in Sources */,
 				E3AD6B95211E9F4400E36332 /* MultiHierarchyViewController.swift in Sources */,
-				E3AD6BA22127B5FA00E36332 /* EnumEnumerable.swift in Sources */,
 				E31ED6922110932500DC3E7D /* AppDelegate.swift in Sources */,
 				E3600B84212EC0C4008ED983 /* TorutsumeCell.swift in Sources */,
 			);
